@@ -1,0 +1,16 @@
+ 1113  cd ../recipes
+ 1114  git log
+ 1115  git status
+ 1116  git add guacamole.md
+ 1117  git commit -m "indeed, let's conflict"
+ 1118  git push
+ 1119  git pull
+ 1120  git status
+ 1121  git config pull.rebase false
+ 1122  git config --list
+ 1123  git pull origin main
+ 1124  more guacamole.md
+ 1125  git status
+ 1126  git add guacamole.md
+ 1127  git commit -m "merged conflict on the file"
+ 1128  git push
